@@ -10,24 +10,25 @@
 <body>
     <header class="header">
         <div class="header__banner">
-            <figure>
-                <img src="./assets/icons/menuIcon.svg" alt="MenuIcon">
-            </figure>
+            <!-- AQUI ICONOS DE REDES SOCIALES   -->
         </div>
         <div class="header__content">
-            <span>
+            <span class="header__logo">
                 <h2>King of kings</h2>
             </span>
-            <nav>
+            <nav class="header__nav">
                 <a href="#">Servicios</a>
                 <a href="#">Nosotros</a>
                 <a href="#">Ubicación</a>
                 <a href="#">Productos</a>
             </nav>
+            <figure>
+                <img src="./assets/icons/menuIcon.svg" alt="MenuIcon">
+            </figure>
         </div>
     </header>
     
-    <main class="main container">
+    <main class="main">
         <!-- SECTION HERO -->
         <section class="hero" id="hero">
             <div class="hero__content">
@@ -35,34 +36,40 @@
                     <img src="./assets/images/Logo.svg" alt="Logo Empresa" class="hero__img">
                 </figure>
                 <h1 class="hero__title">King of kings Baberia</h1>
-                <p class="hero__description">
+                <p class="hero__subtitle">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
-                <button class="btn">
+                <button class="btn btn__border">
                     ¿Hablamos?
                 </button>
             </div>
             <div class="hero__footer">
                 <div class="hero__footer__item">
                     <img src="./assets/icons/info-circle.svg" alt="Icon provisorio">
-                    <p>
-                        Horas de atención
-                    </p>
-                    <span>9:00 am - 20:00</span>
+                    <div class="hero__footer__item--content">
+                        <p>
+                            Horas de atención
+                        </p>
+                        <span>9:00Hrs - 20:00Hrs</span>
+                    </div>
                 </div>
                 <div class="hero__footer__item">
                     <img src="./assets/icons/info-circle.svg" alt="Icon provisorio">
-                    <p>
-                        Nuestra Ubicación
-                    </p>
-                    <span>Lautaro 2032</span>
+                    <div class="hero__footer__item--content">
+                        <p>
+                            Nuestra Ubicación
+                        </p>
+                        <span>Lautaro 2032</span>
+                    </div>
                 </div>
                 <div class="hero__footer__item">
                     <img src="./assets/icons/info-circle.svg" alt="Icon provisorio">
-                    <p>
-                        Días de atención
-                    </p>
-                    <span> Lunes a Domingo</span>
+                    <div class="hero__footer__item--content">
+                        <p>
+                            Días de atención
+                        </p>
+                        <span> Lunes a Domingo</span>
+                    </div>
                 </div>
             </div>
         </section>
@@ -70,11 +77,9 @@
 
         <!-- SECTION SUBSCRITIONS -->
         <section class="subscription" id="subscription">
-            <div class="subscription__image">
-                <figure>
-                    <img src="./assets/images/subs-unsplash.jpg" alt="Imagen Barber">
-                </figure>
-            </div>
+            <figure class="subscription__image">
+                <img src="./assets/images/subs1-unsplash.jpg" alt="Imagen Barber" class="subscription__image--img">
+            </figure>
             <div class="subscription__content">
                 <h3 class="subscription__title">
                     Subscribete para obtener promociones
@@ -153,7 +158,7 @@
         <section class="about" id="about">
             <div class="about__content">
                 <figure class="about__image">
-                    <img src="./assets/images/baber-unsplash.jpg" alt="Fundador">
+                    <img src="./assets/images/baber-unsplash.jpg" alt="Fundador" class="about__image--img">
                 </figure>
                 <div class="about__info">
                     <h3 class="about__title">Nuestra historia</h3>

@@ -9,3 +9,228 @@
 a {
     text-decoration: none;
 }
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+img {
+    max-width: 250px;
+}
+
+.btn {
+    border: none;
+    background-color: transparent;
+    font-size: 1.3rem;
+    margin: 2rem;
+    padding: 1rem;
+    width: 200px;
+    border-radius: 5px;
+}
+
+.btn__border {
+    border: 2px solid white;
+    color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/********************************/
+/*********** HEADER *************/
+/********************************/
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color: #0c0808;
+    color: white;
+    padding: 1px;
+}
+
+.header__banner {
+    display: none;
+    margin: 1rem 2rem;
+    justify-content: flex-end;
+}
+
+.header__content {
+    padding: 20px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header__nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.header__nav a {
+    font-size: 1.5rem;
+    color: white;
+}
+
+/********************************/
+/************ MAIN **************/
+/********************************/
+
+
+
+/********************************/
+/******** SECTION HERO **********/
+/********************************/
+
+.hero {
+    background-image: linear-gradient(#000000aa, rgb(0 0 0 / 63%)), url("../assets/images/fondo.jpg");
+    width: 100%;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    padding: 1px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.hero__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 3rem;
+}
+
+.hero__img {
+    width: 400px;
+}
+
+.hero__title {
+    font-family: 'Nunito Sans', sans-serif;
+    ;
+    font-size: 3rem;
+    font-weight: 900;
+    color: white;
+    line-height: 1.8;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.hero__subtitle {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.hero__footer {
+    position: relative;
+    bottom: 4rem;
+    width: 80%;
+    height: 130px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #000;
+    color: white;
+    -webkit-box-shadow: 1px 0px 21px 4px rgb(103, 80, 60);
+    -moz-box-shadow: 1px 0px 21px 4px rgb(103, 80, 60);
+    box-shadow: 0px 0px 6px 1px rgb(103, 80, 60);
+    border-radius: 5px;
+}
+
+.hero__footer__item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero__footer__item img {
+    width: 30px;
+}
+
+.hero__footer__item--content {
+    text-align: center;
+}
+
+.hero__footer__item--content p {
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+/********************************/
+/**** SECTION SUBSCRIPTION ******/
+/********************************/
+.subscription {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+
+.subscription__image {
+    width: 50%;
+}
+
+.subscription__image--img {
+    max-width: 600px;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+
+/********************************/
+/******* SECTION SERVICIO *******/
+/********************************/
+
+.service {
+    width: 100%;
+    margin: 2rem;
+}
+
+.services__container {
+    display: flex;
+}
+
+
+/********************************/
+/******* SECTION ABOUT **********/
+/********************************/
+
+.about__content {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.about__image {
+    width: 50%;
+}
+
+.about__image--img {
+    max-width: 600px;
+    width: 100%;
+    height: 600px;
+}
+
+/********************************/
+/******* SECTION TEAMS **********/
+/********************************/
+
+.ourteam__container {
+    display: flex;
+}
+
+/********************************/
+/******* SECTION PRODUCTS *******/
+/********************************/
+.products__container {
+    display: flex;
+}
